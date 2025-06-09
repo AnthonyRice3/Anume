@@ -3,17 +3,17 @@ import Image from "next/image";
 export default function Product() {
     return (
         <section className="py-14 bg-white">
-            <div className="max-w-screen-xl mx-auto md:px-8">
+            <div className="max-w-4xl mx-auto md:px-8">
                 <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
-                    <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
+                    <div className=" px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
                         <h3 className="text-slate-600 font-semibold">
-                            Professional services
+                            Detroit&apos;s Wettest Water
                         </h3>
                         <p className="text-gray-800 text-3xl font-semibold sm:text-4xl ">
-                            Build your SaaS solution with help from our experts
+                            Why Our Water is the Best.
                         </p>
-                        <p className="mt-3 text-gray-600 max-w-md text-2xl">
-                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum, sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+                        <p className="mt-3 text-gray-600 max-w-md text-2xl pb-4">
+                            Our water is sourced from the purest springs in Michigan, ensuring every bottle is packed with natural minerals and a crisp, refreshing taste. Unlike ordinary bottled water, our advanced filtration process preserves essential nutrients while removing impurities, giving you a healthier and more satisfying hydration experience. Choose us for water that truly quenches your thirst and supports your well-being.
                         </p>
                         {/* <a href="javascript:void(0)" className="inline-flex gap-x-1 items-center bg-slate-950 p-2 rounded-xl text-white hover:text-slate-500 duration-150 font-medium">
                             Buy Now
@@ -22,7 +22,7 @@ export default function Product() {
                             </svg>
                         </a> */}
                     </div>
-                    <div className="flex-1 sm:hidden lg:block">
+                    <div className="flex-1 sm:hidden lg:block pl-8">
                         <Image src="/water1.png" className="p-2 md:max-w-lg sm:rounded-lg" alt="" width={350} height={120} />
                     </div>
                     

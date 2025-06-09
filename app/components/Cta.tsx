@@ -28,10 +28,10 @@ export default function Cta() {
                 <div className="mt-6 gap-12 sm:mt-0 md:flex lg:block">
                     <div className="max-w-2xl">
                         <h3 className="text-gray-200 text-3xl font-semibold sm:text-4xl">
-                            We do our best to make customers always happy
+                            We Do Our Best To Make Our Customers Happy
                         </h3>
                         <p className="mt-3 max-w-xl">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis sollicitudin quam ut tincidunt.
+                            We pride ourselves on our customer service and our ability to provide the best products at the best prices. Our customers are our top priority, and we will do everything we can to make sure they are happy. The numbers represent our success in achieving this goal.
                         </p>
                     </div>
                     <div className="flex-none mt-6 md:mt-0 lg:mt-6">
@@ -39,8 +39,8 @@ export default function Cta() {
                             {
                                 stats.map((item, idx) => (
                                     <li key={idx} className="">
-                                        <h4 className="text-4xl text-slate-600 font-semibold">{item.data}</h4>
-                                        <p className="mt-3 font-medium">{item.title}</p>
+                                        <h4 className="text-4xl text-slate-200 font-semibold">{item.data}</h4>
+                                        <p className="mt-3 font-medium text-red-400">{item.title}</p>
                                     </li>
                                 ))
                             }

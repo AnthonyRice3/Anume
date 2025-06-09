@@ -14,18 +14,18 @@ export default function Hero() {
                 <div className="relative z-10 max-w-screen-xl mx-auto px-4 py-28 md:px-8">
                     <div className="space-y-5 max-w-4xl mx-auto text-center">
                         <h2 className="text-4xl text-slate-950 font-extrabold mx-auto md:text-5xl">
-                            Build and scale up your startup with the best tools
+                            &quot;..but whoever drinks of the water I give them will never thirst.&quot;
                         </h2>
-                        <p className="max-w-2xl mx-auto text-slate-700">
-                            Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-                        </p>
+                        <h1 className="max-w-2xl mx-auto text-black text-2xl font-bold">
+                            A<span className="text-slate-800 pb-4">NUME</span> Natural <span className="text-red-500">Favored</span> Water
+                        </h1>
                         <form
                             onSubmit={(e) => e.preventDefault()}
                             className="justify-center items-center gap-x-3 sm:flex">
                             <input
                                 type="text"
                                 placeholder="Enter your email"
-                                className="w-full px-3 py-2.5 text-slate-400 bg-slate-700 focus:bg-slate-900 duration-150 outline-none rounded-lg shadow sm:max-w-sm sm:w-auto"
+                                className="w-full px-3 py-2.5 text-slate-900 bg-slate-200 focus:bg-slate-400 duration-150 outline-none rounded-lg shadow sm:max-w-sm sm:w-auto"
                             />
                             <button className="flex items-center justify-center gap-x-2 py-2.5 px-4 mt-3 w-full text-sm text-white font-medium bg-slate-950 hover:bg-slate-400 active:bg-slate-600 duration-150 cursor-pointer rounded-lg sm:mt-0 sm:w-auto">
                                 Get started

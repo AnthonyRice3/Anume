@@ -23,15 +23,12 @@ export default function Plans() {
         <section className='relative py-14 bg-white'>
             <div className="max-w-screen-xl mx-auto text-gray-600 md:px-8">
                 <div className='relative max-w-xl space-y-3 px-4 md:px-0'>
-                    <h3 className="text-slate-600 font-semibold">
-                        Pricing
-                    </h3>
                     <p className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
                         Pay as you grow
                     </p>
                     <div className='max-w-xl'>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur consequat nunc.
+                            We offer options for B2B. Our Platinum package is for those who want to get the most out of our service. Our plans are designed to be affordable and scalable, so you can choose the one that best fits your needs.
                         </p>
                     </div>
                 </div>

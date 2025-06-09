@@ -20,16 +20,17 @@ export default function NavBar() {
 
   return (
       <header>
-        <nav className="relative items-center pt-5 px-4 mx-auto sm:px-8 sm:flex sm:space-x-6 bg-transparent">
+        <nav className="relative items-center px-4 mx-auto sm:px-8 sm:flex sm:space-x-6 bg-white">
             <div className="flex justify-between">
                 <Link href="javascript:void(0)">
                     <Image
                         src="/logo1.png" 
-                        width={100} 
+                        width={50} 
                         height={50}
                         alt="Anume logo"
                     />
                 </Link>
+                <h1 className='pt-2 pl-4 text-2xl font-extrabold text-slate-950'>ANUME</h1>
                 <button className="text-slate-500 outline-none sm:hidden"
                     onClick={() => setState(!state)}
                 >
