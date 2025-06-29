@@ -41,7 +41,7 @@ export default function Testimonials() {
                     {testimonials.map((t, idx) => (
                         <motion.div
                             key={idx}
-                            className="z-50 bg-slate-950 rounded-xl p-6 shadow flex flex-col items-center text-center"
+                            className="z-50 bg-white rounded-xl p-6 shadow flex flex-col items-center text-center"
                             initial={{ opacity: 0, y: 40 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ duration: 0.6, delay: 0.2 + idx * 0.1 }}

@@ -5,12 +5,6 @@ import { motion } from "framer-motion"
 
 export default function Cta() {
 
-    const stats = [
-        { data: "35K", title: "Customers" },
-        { data: "10K+", title: "Downloads" },
-        { data: "40+", title: "Countries" },
-        { data: "30M+", title: "Total revenue" },
-    ]
 
     return (
         <section className="py-14 bg-linear-to-br from-slate-950 via-slate-900 to-slate-950">
@@ -37,20 +31,7 @@ export default function Cta() {
                         transition={{ duration: 0.7, delay: 0.2 }}
                         viewport={{ once: true }}
                     >
-                        <ul className="inline-grid gap-y-8 gap-x-14 grid-cols-2">
-                            {stats.map((item, idx) => (
-                                <motion.li
-                                    key={idx}
-                                    initial={{ opacity: 0, scale: 0.8 }}
-                                    whileInView={{ opacity: 1, scale: 1 }}
-                                    transition={{ duration: 0.5, delay: 0.3 + idx * 0.1 }}
-                                    viewport={{ once: true }}
-                                >
-                                    <h4 className="text-4xl text-slate-200 font-semibold">{item.data}</h4>
-                                    <p className="mt-3 font-medium text-red-400">{item.title}</p>
-                                </motion.li>
-                            ))}
-                        </ul>
+                        <Image src="/logo1.png" className="rounded-lg" alt="" width={250} height={250}/>
                     </motion.div>
                 </div>
                 <motion.div

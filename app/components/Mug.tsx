@@ -36,7 +36,7 @@ export default function Mug () {
                     <div className="flex items-center mt-6">
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
-                            className='h-5 w-5 text-slate-600'
+                            className='h-5 w-5 text-blue-700'
                             viewBox='0 0 20 20'
                             fill='currentColor'>
                             <path
@@ -57,7 +57,7 @@ export default function Mug () {
                     </div><div className="flex items-center mt-6">
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
-                            className='h-5 w-5 text-slate-600'
+                            className='h-5 w-5 text-blue-700'
                             viewBox='0 0 20 20'
                             fill='currentColor'>
                             <path
@@ -79,7 +79,7 @@ export default function Mug () {
                     <div className="flex items-center mt-6">
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
-                            className='h-5 w-5 text-slate-600'
+                            className='h-5 w-5 text-blue-700'
                             viewBox='0 0 20 20'
                             fill='currentColor'>
                             <path
@@ -101,7 +101,7 @@ export default function Mug () {
                     <div className="flex items-center mt-6">
                         <svg
                             xmlns='http://www.w3.org/2000/svg'
-                            className='h-5 w-5 text-slate-600'
+                            className='h-5 w-5 text-blue-700'
                             viewBox='0 0 20 20'
                             fill='currentColor'>
                             <path
@@ -129,7 +129,7 @@ export default function Mug () {
                         transition={{ duration: 0.6, delay: 0.3 }}
                         viewport={{ once: true }}
                     >
-                        <Link href="/Purchase" className="mt-8 inline-block px-6 py-3 rounded-lg text-sm font-semibold text-white bg-slate-950 hover:bg-slate-500 active:bg-slate-700 transition duration-150">
+                        <Link href="https://buy.stripe.com/9B67sKcJx4Ux5SSgJ33Je06" className="mt-8 inline-block px-6 py-3 rounded-lg text-sm font-semibold text-white bg-slate-950 hover:bg-slate-500 active:bg-slate-700 transition duration-150">
                             Buy Now!
                         </Link>
                     </motion.div>

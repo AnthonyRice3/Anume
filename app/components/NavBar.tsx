@@ -12,10 +12,11 @@ export default function NavBar() {
 
   
   const navigation = [
-      { title: "Customers", path: "javascript:void(0)" },
-      { title: "Careers", path: "javascript:void(0)" },
-      { title: "Guides", path: "javascript:void(0)" },
-      { title: "Partners", path: "javascript:void(0)" }
+        { title: "Home", path: "/" },
+        { title: "About", path: "#About" },
+        { title: "Water", path: "#10x" },
+        { title: "Buy", path: "/Purchase" }
+        
   ]
 
   return (
@@ -48,17 +49,18 @@ export default function NavBar() {
                     }
                 </button>
             </div>
-            <ul className={`bg-white shadow-md rounded-md p-4 flex-1 mt-12 absolute z-20 top-8 right-4 w-64 border sm:shadow-none sm:block sm:border-0 sm:mt-0 sm:static sm:w-auto ${state ? '' : 'hidden'}`}>
-                <div className="order-1 justify-end items-center space-y-5 sm:flex sm:space-x-6 sm:space-y-0">
-                    {
-                        navigation.map((item, idx) => (
-                            <li className="text-slate-950 hover:text-slate-600" key={idx}>
-                                <a href={item.path}>{item.title}</a>
-                            </li>
-                        ))
-                    }
-                </div>
-            </ul>
+            <ul
+  className={`bg-white shadow-md rounded-md p-4 flex-1 mt-12 absolute z-20 top-8 right-4 w-64 border
+    sm:shadow-none  sm:border-0 sm:mt-0 sm:static sm:w-auto order-1 justify-end items-center
+    space-y-5 sm:flex sm:space-x-6 sm:space-y-0
+    ${state ? "" : "hidden"} sm:flex`}
+>
+  {navigation.map((item, idx) => (
+    <li className="text-slate-950 hover:text-slate-600" key={idx}>
+      <a href={item.path}>{item.title}</a>
+    </li>
+  ))}
+</ul>
         </nav>
     </header>
   )

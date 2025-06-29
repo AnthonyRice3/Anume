@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
     return (
-        <section className="py-14 bg-white">
+        <section id="About" className="py-14 bg-white">
             <div className="max-w-screen-xl mx-auto md:px-8">
                 <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
                     <motion.div

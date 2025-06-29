@@ -7,9 +7,9 @@ import Link from "next/link";
 export default function Plans() {
 
     const plan = {
-        name: "Basic plan",
+        name: "3 x (16)pk - 16.9oz Water Bottles",
         desc: "",
-        price: 45,
+        price: 44,
         isMostPop: true,
         features: [
             "Ultra-Purified Filtration",
@@ -23,7 +23,7 @@ export default function Plans() {
     }
 
     return (
-        <section className='relative py-14 bg-white'>
+        <section id="10x" className='relative py-14 bg-white'>
             <div className="max-w-screen-xl mx-auto text-gray-600 md:px-8">
                 <div className='relative max-w-xl space-y-3 px-4 md:px-0'>
                     <motion.p
@@ -75,11 +75,11 @@ export default function Plans() {
                                     </p>
                                 </div>
                                 <div className='flex-none mb-4 text-gray-800 text-2xl font-semibold sm:text-3xl'>
-                                    ${plan.price} <span className="text-xl text-gray-600 font-normal">.00</span>
+                                    ${plan.price} <span className="text-xl text-gray-600 font-normal">.99</span>
                                 </div>
                             </div>
-                            <Link href="/Purchase" className='cursor-pointer mt-8 px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-slate-950 hover:bg-slate-500 active:bg-slate-700'>
-                                Get Started
+                            <Link href="https://buy.stripe.com/dRm8wOcJx2Mp2GGakF3Je01" className='cursor-pointer mt-8 px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-slate-950 hover:bg-slate-500 active:bg-slate-700'>
+                                Buy Now!
                             </Link>
                         </div>
                         <ul className='p-4 space-y-3 sm:grid sm:grid-cols-2 md:block md:p-8 lg:grid'>
