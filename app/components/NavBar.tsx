@@ -10,7 +10,7 @@ export default function NavBar() {
 
   const [state, setState] = useState(false)
 
-  // Replace javascript:void(0) path with your path
+  
   const navigation = [
       { title: "Customers", path: "javascript:void(0)" },
       { title: "Careers", path: "javascript:void(0)" },
@@ -22,7 +22,7 @@ export default function NavBar() {
       <header>
         <nav className="relative items-center px-4 mx-auto sm:px-8 sm:flex sm:space-x-6 bg-white">
             <div className="flex justify-between">
-                <Link href="javascript:void(0)">
+                <Link href="/">
                     <Image
                         src="/logo1.png" 
                         width={50} 

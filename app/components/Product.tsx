@@ -1,11 +1,20 @@
+"use client"
+
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Product() {
     return (
         <section className="py-14 bg-white">
-            <div className="max-w-4xl mx-auto md:px-8">
+            <div className="max-w-5xl mx-auto md:px-8">
                 <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
-                    <div className=" px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">
+                    <motion.div
+                        className="px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl"
+                        initial={{ opacity: 0, x: -40 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.7 }}
+                        viewport={{ once: true }}
+                    >
                         <h3 className="text-slate-600 font-semibold">
                             Detroit&apos;s Wettest Water
                         </h3>
@@ -15,20 +24,25 @@ export default function Product() {
                         <p className="mt-3 text-gray-600 max-w-md text-2xl pb-4">
                             Our water is sourced from the purest springs in Michigan, ensuring every bottle is packed with natural minerals and a crisp, refreshing taste. Unlike ordinary bottled water, our advanced filtration process preserves essential nutrients while removing impurities, giving you a healthier and more satisfying hydration experience. Choose us for water that truly quenches your thirst and supports your well-being.
                         </p>
-                        {/* <a href="javascript:void(0)" className="inline-flex gap-x-1 items-center bg-slate-950 p-2 rounded-xl text-white hover:text-slate-500 duration-150 font-medium">
-                            Buy Now
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
-                                <path fillRule="evenodd" d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z" clipRule="evenodd" />
-                            </svg>
-                        </a> */}
-                    </div>
-                    <div className="flex-1 sm:hidden lg:block pl-8">
+                    </motion.div>
+                    <motion.div
+                        className="flex-1 sm:hidden lg:block pl-8"
+                        initial={{ opacity: 0, x: 40 }}
+                        whileInView={{ opacity: 1, x: 0 }}
+                        transition={{ duration: 0.7, delay: 0.2 }}
+                        viewport={{ once: true }}
+                    >
                         <Image src="/water1.png" className="p-2 md:max-w-lg sm:rounded-lg" alt="" width={350} height={120} />
-                    </div>
-                    
+                    </motion.div>
                 </div>
             </div>
-            <div className="absolute inset-0 m-auto max-w-xs h-[357px] blur-[118px] sm:max-w-md md:max-w-lg gradient-bg"></div>
+            <motion.div
+                className="absolute inset-0 m-auto max-w-xs h-[357px] blur-[118px] sm:max-w-md md:max-w-lg gradient-bg"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ duration: 1, delay: 0.5 }}
+                viewport={{ once: true }}
+            ></motion.div>
         </section>
     )
 }
