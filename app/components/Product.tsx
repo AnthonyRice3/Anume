@@ -32,7 +32,7 @@ export default function Product() {
                         transition={{ duration: 0.7, delay: 0.2 }}
                         viewport={{ once: true }}
                     >
-                        <Image src="/water1.png" className="p-2 md:max-w-lg sm:rounded-lg" alt="" width={350} height={120} />
+                        <Image src="/water1.png" className="p-2 md:max-w-lg rounded-2xl" alt="" width={350} height={120} />
                     </motion.div>
                 </div>
             </div>

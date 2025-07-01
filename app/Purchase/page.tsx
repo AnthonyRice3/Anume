@@ -9,6 +9,7 @@ import Shirt from '../components/Shirt';
 import Hat from '../components/Hat';
 import Backpack from '../components/Backpack';
 import Mug from '../components/Mug';
+import Glasses from '../components/Glasses';
 
 
 if (process.env.NEXT_PUBLIC_STRIPE_PUBLIC_KEY === undefined) {
@@ -26,6 +27,7 @@ export default function Purchase() {
             <Hat />
             <Backpack />
             <Mug />
+            <Glasses />
             <Elements stripe={stripePromise}>
                 <Checkout />   
             </Elements>

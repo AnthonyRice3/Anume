@@ -76,9 +76,9 @@ export default function Footer() {
                 <div className="flex-1">
                     <div className="max-w-xs">
                         <Image alt="logo" src="/logo1.png" width={150} height={150} className="w-32" />
-                        <p className="leading-relaxed mt-2 text-[15px]">
+                        {/* <p className="leading-relaxed mt-2 text-[15px]">
                             Lorem Ipsum has been the industry&apos;s standard dummy text ever since the 1500s.
-                        </p>
+                        </p> */}
                     </div>
                     <form 
                         onSubmit={(e) => e.preventDefault()}

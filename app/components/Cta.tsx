@@ -31,7 +31,7 @@ export default function Cta() {
                         transition={{ duration: 0.7, delay: 0.2 }}
                         viewport={{ once: true }}
                     >
-                        <Image src="/logo1.png" className="rounded-lg" alt="" width={250} height={250}/>
+                        <Image src="/logo1.png" className="rounded-3xl" alt="" width={250} height={250}/>
                     </motion.div>
                 </div>
                 <motion.div
@@ -41,7 +41,7 @@ export default function Cta() {
                     transition={{ duration: 0.7, delay: 0.4 }}
                     viewport={{ once: true }}
                 >
-                    <Image src="/water3.png" className="rounded-lg pt-4" alt="" width={350} height={350}/>
+                    <Image src="/water3.png" className="rounded-3xl pt-4" alt="" width={350} height={350}/>
                 </motion.div>
             </div>
         </section>
