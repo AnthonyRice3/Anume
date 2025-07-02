@@ -1,11 +1,21 @@
 'use client'
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function Hero() {
     return (
         <>
+            <section className="relative">
+                    <Image 
+                    alt="Hero Background"
+                    src="/anumebg.jpg"
+                    width={1920}
+                    height={1080}
+                    
+                    />
+                </section>
             <div className="bg-white">
                 <section className="relative">
                     <div className="relative z-10 max-w-screen-xl mx-auto px-4 py-28 md:px-8">
