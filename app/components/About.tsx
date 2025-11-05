@@ -15,7 +15,7 @@ export default function About() {
                         transition={{ duration: 0.7 }}
                         viewport={{ once: true }}
                     >
-                        <Image src="/destr.png" className="md:max-w-lg rounded-3xl p-4" alt="" width={450} height={200} />
+                        <Image src="/water4.png" className="md:max-w-lg rounded-3xl p-4" alt="" width={450} height={200} />
                     </motion.div>
                     <motion.div
                         className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl"
