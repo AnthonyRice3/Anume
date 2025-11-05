@@ -7,7 +7,7 @@ export default function PriceCard() {
 
     const plans = [
         {
-            name: "(16)pk - 16.9oz Water Bottles",
+            name: "(24)pk - 16.9oz Water Bottles",
             desc: "",
             price: 18,
             buy: "https://buy.stripe.com/aFa3cu4d186Jfts3Wh3Je00",
@@ -23,7 +23,7 @@ export default function PriceCard() {
             ],
         },
         {
-            name: "3 x (16)pk - 16.9oz Water Bottles",
+            name: "3 x (24)pk - 16.9oz Water Bottles",
             desc: "",
             price: 44,
             buy: "https://buy.stripe.com/dRm8wOcJx2Mp2GGakF3Je01",
@@ -39,7 +39,7 @@ export default function PriceCard() {
             ],
         },
         {
-            name: "10 x (16)pk - 16.9oz Water Bottles",
+            name: "10 x (24)pk - 16.9oz Water Bottles",
             desc: "",
             price: 149,
             buy: "https://buy.stripe.com/fZu28qeRF0Eh6WW0K53Je02",

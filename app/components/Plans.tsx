@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Plans() {
 
     const plan = {
-        name: "3 x (16)pk - 16.9oz Water Bottles",
+        name: "3 x (24)pk - 16.9oz Water Bottles",
         desc: "",
         price: 44,
         isMostPop: true,
